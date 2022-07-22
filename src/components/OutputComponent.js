@@ -5,7 +5,7 @@ import video from "../ass/Add Subtitles to Video.mov";
 const OutputComponent = ({ is }) => {
   return (
     <div className="OutputComponent">
-      <video src={video} height="50%" width="100%" controls />
+      <video src={video} height="auto" width="100%" controls />
       <div className="livecaption">{is}</div>
     </div>
   );

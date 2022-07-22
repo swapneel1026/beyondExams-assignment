@@ -9,6 +9,7 @@ textarea {
   color: white;
   padding: 0.5rem;
   text-align: left;
+  width: 20rem;
 }
 .inputComponent {
   width: 50%;
