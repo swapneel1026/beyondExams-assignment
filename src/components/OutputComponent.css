@@ -1,0 +1,23 @@
+.OutputComponent {
+  width: 50%;
+  /* border: 1px solid grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+.livecaption {
+  /* border: 1px solid red; */
+  width: fit-content;
+  position: relative;
+  bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.744);
+  color: #fff;
+  z-index: 100;
+}
+video {
+  /* border: 1px solid green; */
+  position: relative;
+  width: 100%;
+  top: 4rem;
+}

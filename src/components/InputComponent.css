@@ -1,0 +1,20 @@
+textarea {
+  resize: none;
+  position: relative;
+  bottom: 8rem;
+  border: 1px solid #379afd;
+  outline: none;
+  background-color: #161516;
+  border-radius: 3px;
+  color: white;
+  padding: 0.5rem;
+  text-align: left;
+}
+.inputComponent {
+  width: 50%;
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
